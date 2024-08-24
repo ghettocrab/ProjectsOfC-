@@ -7,7 +7,8 @@ int main() {
    int* num1_ptr = &num1;
    int* num2_ptr = &num2;
    int result = num1 * num2;
-   int* num3_ptr = &result;
+   int *num3_ptr;
+   num3_ptr = &result;
 
    cout << num3_ptr << endl;
    
